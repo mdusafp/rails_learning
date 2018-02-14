@@ -1,0 +1,5 @@
+<%= form_with scope: :tasks, local: true do |form| %>
+    <%= form.text_field :title %>
+    <%= form.text_area :description %>
+    <%= form.submit %>
+<% end %>
